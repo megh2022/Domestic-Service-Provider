@@ -172,7 +172,7 @@ function ProviderDashboard() {
         {bookings.length === 0 ? (
           <p>No bookings found.</p>
         ) : (
-          <table className="w-full border-collapse">
+          <table className="w-full border-collapse text-center">
             <thead>
               <tr className="bg-gray-200">
                 <th className="p-2">Service</th>
@@ -222,7 +222,7 @@ function ProviderDashboard() {
         {services.length === 0 ? (
           <p>No services found.</p>
         ) : (
-          <table className="w-full border-collapse">
+          <table className="w-full border-collapse text-center">
             <thead>
               <tr className="bg-gray-200">
                 <th className="p-2">Name</th>
