@@ -57,7 +57,7 @@ function UserBookings() {
         <p className="text-center">No bookings found.</p>
       ) : (
         <div className="bg-white p-6 rounded-lg shadow-md">
-          <table className="w-full border-collapse">
+          <table className="w-full border-collapse text-center">
             <thead>
               <tr className="bg-gray-200">
                 <th className="p-2">Service</th>
